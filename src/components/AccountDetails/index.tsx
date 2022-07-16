@@ -1,6 +1,6 @@
-import React, { useCallback, useContext } from 'react';
+import React, { useCallback } from 'react';
 import { useDispatch } from 'react-redux';
-import styled, { ThemeContext } from 'styled-components';
+import styled from 'styled-components';
 import { useActiveWeb3React } from '../../hooks';
 import { AppDispatch } from '../../state';
 import { clearAllTransactions } from '../../state/transactions/actions';
@@ -20,8 +20,6 @@ import {
 } from '../../connectors';
 import CoinbaseWalletIcon from '../../assets/images/coinbaseWalletIcon.svg';
 import WalletConnectIcon from '../../assets/images/walletConnectIcon.svg';
-// import FortmaticIcon from '../../assets/images/fortmaticIcon.png';
-// import PortisIcon from '../../assets/images/portisIcon.png';
 import Identicon from '../Identicon';
 import { ButtonSecondary } from '../Button';
 import { ExternalLink as LinkIcon } from 'react-feather';
@@ -231,7 +229,7 @@ export default function AccountDetails({
   openOptions,
 }: AccountDetailsProps) {
   const { chainId, account, connector } = useActiveWeb3React();
-  const theme = useContext(ThemeContext);
+  // const theme = useContext(ThemeContext);
   const dispatch = useDispatch<AppDispatch>();
 
   function formatConnectorName() {
@@ -409,7 +407,7 @@ export default function AccountDetails({
         </LowerSection>
       ) : (
         <LowerSection>
-          <TYPE.body color={theme.text1}>Your transactions will appear here...</TYPE.body>
+          <TYPE.body color='#FFFFFF'>Your transactions will appear here...</TYPE.body>
         </LowerSection>
       )}
     </>
