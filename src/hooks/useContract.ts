@@ -1,7 +1,7 @@
 import { Contract } from '@ethersproject/contracts';
-import { abi as STAKING_REWARDS_ABI } from '@uniswap/liquidity-staker/build/StakingRewards.json';
-import { ChainId, WETH } from '@uniswap/sdk';
-import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json';
+import { abi as STAKING_REWARDS_ABI } from '@aliendex/liquidity-staker/build/StakingRewards.json';
+import { ChainId, WETH } from '@aliendex/sdk';
+import { abi as IUniswapV2PairABI } from '@aliendex/v2-core/build/IUniswapV2Pair.json';
 import { useMemo } from 'react';
 import {
   ARGENT_WALLET_DETECTOR_ABI,

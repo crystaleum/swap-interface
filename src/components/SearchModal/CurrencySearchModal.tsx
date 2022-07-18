@@ -1,4 +1,4 @@
-import { Currency, Token } from '@uniswap/sdk';
+import { Currency, Token } from '@aliendex/sdk';
 import React, { useCallback, useEffect, useState } from 'react';
 import useLast from '../../hooks/useLast';
 import Modal from '../Modal';
@@ -6,7 +6,7 @@ import { CurrencySearch } from './CurrencySearch';
 import { ImportToken } from './ImportToken';
 import usePrevious from 'hooks/usePrevious';
 import Manage from './Manage';
-import { TokenList } from '@uniswap/token-lists';
+import { TokenList } from '@aliendex/token-lists';
 import { ImportList } from './ImportList';
 
 interface CurrencySearchModalProps {

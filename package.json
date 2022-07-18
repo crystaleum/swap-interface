@@ -25,12 +25,12 @@
     "@types/wcag-contrast": "3.0.0",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
-    "@uniswap/lib": "file:uniswap/alienswap-1.0.0",
-    "@uniswap/sdk": "file:uniswap/alienswap-1.0.0",
-    "@uniswap/liquidity-staker": "file:uniswap/alienswap-1.0.0",
-    "@uniswap/token-lists": "file:uniswap/alienswap-1.0.0",
-    "@uniswap/v2-core": "file:uniswap/alienswap-1.0.0",
-    "@uniswap/v2-periphery": "file:uniswap/alienswap-1.0.0",
+    "@aliendex/lib": "1.1.5",
+    "@aliendex/sdk": "3.0.6",
+    "@aliendex/token-lists": "1.0.0",
+    "@aliendex/liquidity-staker": "1.0.2",
+    "@aliendex/v2-core": "1.0.0",
+    "@aliendex/v2-periphery": "1.0.2",
     "@web3-react/core": "6.1.9",
     "@web3-react/fortmatic-connector": "6.1.6",
     "@web3-react/injected-connector": "6.0.7",
@@ -90,7 +90,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@uniswap/default-token-list": "2.0.0",
+    "@aliendex/default-token-list": "1.0.0",
     "dotenv": "^10.0.0",
     "web3-utils": "^1.5.3"
   },

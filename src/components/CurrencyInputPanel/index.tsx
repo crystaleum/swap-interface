@@ -1,4 +1,4 @@
-import { Currency, Pair } from '@uniswap/sdk';
+import { Currency, Pair } from '@aliendex/sdk';
 import React, { useState, useCallback } from 'react';
 import styled from 'styled-components';
 import { darken } from 'polished';

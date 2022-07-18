@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WETH } from '@uniswap/sdk';
+import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WETH } from '@aliendex/sdk';
 import { DAI, USDC, USDT, WBTC } from '../../constants';
 import { useActiveWeb3React } from '../../hooks';
 import { tryParseAmount } from '../swap/hooks';

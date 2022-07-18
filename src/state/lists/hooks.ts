@@ -1,7 +1,7 @@
 import { toChecksumAddress } from 'web3-utils';
-import DEFAULT_TOKEN_LIST from '@uniswap/default-token-list';
-import { ChainId, Token } from '@uniswap/sdk';
-import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists';
+import DEFAULT_TOKEN_LIST from '@aliendex/default-token-list';
+import { ChainId, Token } from '@aliendex/sdk';
+import { Tags, TokenInfo, TokenList } from '@aliendex/token-lists';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { AppState } from '../index';
